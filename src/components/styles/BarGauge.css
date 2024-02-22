@@ -1,0 +1,19 @@
+.progress-bar-container {
+    display: flex;
+}
+
+.bar-gauge-blocks {
+    display: flex;
+}
+
+.block {
+    width: 20px;
+    height: 20px; 
+    background-color: #ccc; 
+    margin-right: 5px;
+}
+
+.block.filled {
+    background-color: lightgreen;
+}
+

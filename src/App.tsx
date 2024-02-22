@@ -1,11 +1,15 @@
 import React from 'react';
 import HeadshotSlider from './widgets/HeadshotSlider';
+import HeadshotBar from './widgets/HeadshotBar';
 import './App.css';
 
 const App: React.FC = () => {
 
   return (
-    <HeadshotSlider />
+    <div>
+      <HeadshotBar />
+      <HeadshotSlider />
+    </div>
     )
 }
 
