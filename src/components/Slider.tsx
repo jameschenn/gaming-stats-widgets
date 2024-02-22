@@ -11,7 +11,7 @@ const Slider: React.FC<SliderProps> = ({ value }) => {
     const snap = useSnapshot(value);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setSliderPercentage(parseInt(e.target.value));
+        setSliderPercentage(parseFloat(e.target.value));
     }
 
     console.log(snap.percentage)
@@ -20,6 +20,7 @@ const Slider: React.FC<SliderProps> = ({ value }) => {
             type='range'
             min='0'
             max='100'
+            step='0.1'
             value={snap.percentage}
             onChange={handleChange}
         />

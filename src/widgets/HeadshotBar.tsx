@@ -11,7 +11,7 @@ const HeadshotBar: React.FC = () => {
     return (
         <Card>
             <div>
-                <p>{snap.percentage}</p>
+                <p>{snap.percentage}%</p>
                 <p>headshot</p>
             </div>
             <div>
