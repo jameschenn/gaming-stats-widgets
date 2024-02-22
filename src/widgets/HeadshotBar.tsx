@@ -1,22 +1,12 @@
 import React from 'react';
-import { useSnapshot } from 'valtio';
 import Card from '../components/Card';
 import BarGauge from '../components/BarGauge';
 import store from '../store';
 
 const HeadshotBar: React.FC = () => {
-
-    const snap = useSnapshot(store);
     
     return (
-        <Card>
-            <div>
-                <p>{snap.percentage}%</p>
-                <p>headshot</p>
-            </div>
-            <div>
-                <p>ak-47</p>
-            </div>
+        <Card renderText={true}>
             <BarGauge value={store} />
         </Card>
     );

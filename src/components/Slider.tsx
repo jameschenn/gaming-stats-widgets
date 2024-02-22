@@ -1,6 +1,8 @@
 import React from 'react';
 import { useSnapshot } from 'valtio';
 import { setSliderPercentage } from '../store';
+import './styles/Slider.css';
+
 
 interface SliderProps {
     value: { percentage: number };
@@ -14,7 +16,6 @@ const Slider: React.FC<SliderProps> = ({ value }) => {
         setSliderPercentage(parseFloat(e.target.value));
     }
 
-    console.log(snap.percentage)
     return (
         <input
             type='range'

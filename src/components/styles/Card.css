@@ -1,5 +1,42 @@
-div {
+.widget-card {
+    position: relative;
+    min-height: 14vh;
+    width: 40vh;
     background-color: #13161c;
-    /* border: solid 1px #1d2128; */
-    border-radius: 1px;
+    border: solid 1px #1d2128;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.percentage-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 29px;
+}
+
+.percentage-div p:nth-child(2) {
+    color: var(--clr-text);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 8px 0px 23px 0px;
+}
+
+.percentage {
+    color: var(--clr-green);
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.weapon-div {
+    color: var(--clr-text);
+    font-size: 12px;
+    font-weight: 600;
+
+    position: absolute;
+    top: 1em;
+    right: 2.3em;
+    
 }
