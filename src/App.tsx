@@ -1,6 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import HeadshotSlider from './widgets/HeadshotSlider';
+import './App.css';
 
-export default function App() {
-  return 'hi'
+const App: React.FC = () => {
+
+  return (
+    <HeadshotSlider />
+    )
 }
+
+export default App;
