@@ -1,0 +1,24 @@
+.circle-gauge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.header-category {
+    font-size: 18px;
+    font-weight: 700;
+    color:#e2e5ea;
+    margin:6px;
+}
+
+.header-stats {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--clr-text);
+    padding-bottom: 2px;
+}
+
+.header-stats span {
+    color: var(--clr-green);
+}

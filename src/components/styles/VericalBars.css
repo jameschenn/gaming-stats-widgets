@@ -1,0 +1,31 @@
+.bars-container {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.dashed-line-svg {
+    position: absolute;
+    top: 48%;  
+    width: 83.5%;
+}
+
+.dashed-line {
+    stroke: #595e66;
+    stroke-width: 0.75px;
+    stroke-dasharray: 1.7, 1.6;
+}
+
+.bar-data {
+    width: 17px; 
+    background: #35383e;
+    border-top: solid 2px #595e66;
+    margin: 2.7px;
+}
+
+.bar-data:last-child {
+    background-color: var(--clr-darkGreen);
+    border-top: solid 2px var(--clr-green)
+}
+
