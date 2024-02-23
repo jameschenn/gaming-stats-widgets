@@ -1,19 +1,26 @@
-.progress-bar-container {
-    display: flex;
-}
-
 .bar-gauge-blocks {
     display: flex;
+    justify-content: center;
 }
 
 .block {
-    width: 20px;
-    height: 20px; 
-    background-color: #ccc; 
-    margin-right: 5px;
+    width: 22px;
+    height: 34px; 
+    background-color: #282a30;
+    border: solid 1px #3c3e45;
+    margin: 0 1px 0 1px;
+}
+
+.block:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.block:last-child {
+    border-radius: 0 10px 10px 0;
 }
 
 .block.filled {
-    background-color: lightgreen;
+    background-color: var(--clr-green);
+    border: solid 1px #205438; 
 }
 
