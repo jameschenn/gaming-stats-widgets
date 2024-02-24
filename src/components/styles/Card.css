@@ -1,11 +1,10 @@
 .widget-card {
     position: relative;
-    min-height: 14vh;
-    width: 40vh;
+    width: 430px;
     background-color: #13161c;
     border: solid 1px #1d2128;
     border-radius: 12px;
-    margin-bottom: 30px;
+    margin-bottom: 75px;
     padding-bottom: 30px;
 }
 
@@ -36,5 +35,5 @@
     font-weight: 600;
     position: absolute;
     top: 1em;
-    right: 2.3em;   
+    right: 2.3em;
 }

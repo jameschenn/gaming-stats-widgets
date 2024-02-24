@@ -6,9 +6,9 @@
 }
 
 .header-category {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
-    color:#e2e5ea;
+    color: var(--clr-text-white);
     margin:6px;
 }
 
