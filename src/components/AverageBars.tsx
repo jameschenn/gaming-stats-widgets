@@ -1,17 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import './styles/VericalBars.css'
+import './styles/AverageBars.css'
 
-interface BarsAnimationProps {
+interface AverageAnimationProps {
     value: number;
     maxValue: number;
 }
 
-interface BarsProp {
+interface AverageProp {
     data: any,
 }
 
-const BarsAnimation: React.FC<BarsAnimationProps> = ({ value, maxValue }) => {
+const AverageAnimation: React.FC<AverageAnimationProps> = ({ value, maxValue }) => {
   
   const height = (value / maxValue) * 100;
 
@@ -28,7 +28,7 @@ const BarsAnimation: React.FC<BarsAnimationProps> = ({ value, maxValue }) => {
   );
 };
 
-const VerticalBars: React.FC<BarsProp> = ({ data }) => {
+const AverageBars: React.FC<AverageProp> = ({ data }) => {
 
   const maxValue = Math.max(...data.map((bar:any) => bar.value));
 
@@ -39,10 +39,10 @@ const VerticalBars: React.FC<BarsProp> = ({ data }) => {
         <line className='dashed-line' x1='0' y1='0' x2='100' y2='0' />
       </svg>
       {data.map((bar:any, index:number) => (
-        <BarsAnimation key={index} value={bar.value} maxValue={maxValue} />
+        <AverageAnimation key={index} value={bar.value} maxValue={maxValue} />
         ))}
     </div>
   );
 };
 
-export default VerticalBars;
+export default AverageBars;

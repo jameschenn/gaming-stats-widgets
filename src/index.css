@@ -14,7 +14,8 @@
 
   --clr-green: #1ad25e;
   --clr-darkGreen: #16442d;
-  --clr-text: #999ca2;
+  --clr-text-gray: #999ca2;
+  --clr-data-gray: #35383e;
 }
 
 /* a {

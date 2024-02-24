@@ -8,7 +8,7 @@
 .dashed-line-svg {
     position: absolute;
     top: 48%;  
-    width: 83.5%;
+    width: 83.6%;
 }
 
 .dashed-line {
@@ -19,13 +19,13 @@
 
 .bar-data {
     width: 17px; 
-    background: #35383e;
+    background: var(--clr-data-gray);
     border-top: solid 2px #595e66;
     margin: 2.7px;
 }
 
 .bar-data:last-child {
     background-color: var(--clr-darkGreen);
-    border-top: solid 2px var(--clr-green)
+    border-top: solid 2px var(--clr-green);
 }
 

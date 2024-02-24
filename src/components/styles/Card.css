@@ -17,7 +17,7 @@
 }
 
 .percentage-div p:nth-child(2) {
-    color: var(--clr-text);
+    color: var(--clr-text-gray);
     font-size: 14px;
     font-weight: 700;
     margin: 8px 0px 23px 0px;
@@ -31,12 +31,10 @@
 }
 
 .weapon-div {
-    color: var(--clr-text);
+    color: var(--clr-text-gray);
     font-size: 12px;
     font-weight: 600;
-
     position: absolute;
     top: 1em;
-    right: 2.3em;
-    
+    right: 2.3em;   
 }

@@ -2,7 +2,8 @@ import React from 'react';
 import { useSnapshot } from 'valtio';
 import Card from '../components/Card';
 import CircleGauge from '../components/CircleGauge';
-import VerticalBars from '../components/VerticalBars';
+import AverageBars from '../components/AverageBars';
+import StatisticsBars from '../components/StatisticsBar';
 import store from '../store';
 import './styles/HeadshotStats.css'
 
@@ -27,6 +28,12 @@ const HeadshotStats: React.FC = () => {
         {'value': 5.7},
         {'value': 10},
     ]
+
+    const fakeBarsData = [
+        {'stat': 'Statistics', 'value' : 999 },
+        {'stat': 'Statistics', 'value' : 500 },
+        {'stat': 'Statistics', 'value' : 209 },
+    ]
         
     return (
         <Card renderText={false}>
@@ -40,7 +47,10 @@ const HeadshotStats: React.FC = () => {
                 </div>
             </div>
             <div>
-                <VerticalBars data={fakeBlocksData} />
+                <AverageBars data={fakeBlocksData} />
+            </div>
+            <div>
+                <StatisticsBars data={fakeBarsData} />
             </div>
         </Card>
     );

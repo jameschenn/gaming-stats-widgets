@@ -15,7 +15,7 @@
 .header-stats {
     font-size: 14px;
     font-weight: 600;
-    color: var(--clr-text);
+    color: var(--clr-text-gray);
     padding-bottom: 2px;
 }
 
