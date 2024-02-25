@@ -7,7 +7,7 @@ interface StatisticsAnimationProps {
 }
 
 interface StatisticsProp {
-    data: any,
+    data: Array<any>,
 }
 
 const StatisticsAnimation: React.FC<StatisticsAnimationProps> = ({ value }) => {

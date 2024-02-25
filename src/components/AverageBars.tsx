@@ -8,7 +8,7 @@ interface AverageAnimationProps {
 }
 
 interface AverageProp {
-    data: any,
+    data: Array<any>,
 }
 
 const AverageAnimation: React.FC<AverageAnimationProps> = ({ value, maxValue }) => {
@@ -30,7 +30,7 @@ const AverageAnimation: React.FC<AverageAnimationProps> = ({ value, maxValue }) 
 
 const AverageBars: React.FC<AverageProp> = ({ data }) => {
 
-  const maxValue = Math.max(...data.map((bar:any) => bar.value));
+  const maxValue = Math.max(...data.map((bar) => bar.value));
 
   return (
     <div className='bars-container'>
