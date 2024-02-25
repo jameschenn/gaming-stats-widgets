@@ -8,17 +8,17 @@
 .dashed-line-svg {
     position: absolute;
     top: 48%;  
-    width: 77%;
+    width: 83%;
 }
 
 .dashed-line {
     stroke: #595e66;
-    stroke-width: 0.75px;
-    stroke-dasharray: 1.7, 1.6;
+    stroke-width: 1px;
+    stroke-dasharray: 1.3, 1.69;
 }
 
 .bar-data {
-    width: 17px; 
+    width: 16px; 
     background: var(--clr-data-gray);
     border-top: solid 2px #595e66;
     margin: 2.7px;

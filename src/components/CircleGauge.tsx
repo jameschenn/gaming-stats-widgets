@@ -26,7 +26,8 @@ const CircleGauge: React.FC<CircleGaugeProps> = ({ value }) => {
                 trailColor: '#35383e',
                 textColor:'var(--clr-green)',
                 pathTransitionDuration: 0.35,
-                textSize:'28px',                 
+                textSize:'28px',
+
             })}
         />        
     );

@@ -8,13 +8,13 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <div>
+      <div className='div-seperator'>
         <HeadshotBar />
       </div>
-      <div>
+      <div className='div-seperator'>
         <HeadshotSlider />
       </div>
-      <div>
+      <div className='div-seperator'>
         <HeadshotStats />
       </div>
     </div>

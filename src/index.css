@@ -7,8 +7,11 @@
   -moz-osx-font-smoothing: grayscale;
 
   --clr-green: #1ad25e;
+  --clr-card: #13161c;
+  --clr-card-border: #1d2128; 
   --clr-darkGreen: #16442d;
-  --clr-text-gray: #999ca2;
+  --clr-text-gray: #7f838b;
+  --clr-secondaryText-gray: #787c84;
   --clr-data-gray: #35383e;
   --clr-text-white: #e2e5ea;
   

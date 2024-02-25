@@ -14,7 +14,7 @@ const HeadshotStats: React.FC = () => {
     return (
         <Card renderText={false}>
             <div className='circle-gauge-container'>
-                <div style={{ width: 150, height: 150 }}>
+                <div style={{ width: 120, height: 120 }}>
                     <CircleGauge value={store} />
                 </div>
                 <div>
