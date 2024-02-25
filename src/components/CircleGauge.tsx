@@ -17,17 +17,16 @@ const CircleGauge: React.FC<CircleGaugeProps> = ({ value }) => {
             className='circle-gauge'
             value={snap.percentage}
             text={`${Math.floor(snap.percentage)}%`}
-            circleRatio={0.75}
+            circleRatio={0.66}
             strokeWidth={6}
             styles={buildStyles({
-                rotation: 1 / 2 + 1 / 8,
+                rotation: 0.67,
                 strokeLinecap: 'butt',
                 pathColor:'var(--clr-green)',
                 trailColor: '#35383e',
                 textColor:'var(--clr-green)',
                 pathTransitionDuration: 0.35,
                 textSize:'28px',
-
             })}
         />        
     );

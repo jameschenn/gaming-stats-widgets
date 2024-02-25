@@ -1,6 +1,6 @@
 .widget-card {
     position: relative;
-    width: 385px;
+    width: 390px;
     background-color: var(--clr-card);
     border: solid 1px var(--clr-card-border);
     border-radius: 12px;
