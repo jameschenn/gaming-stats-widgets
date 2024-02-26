@@ -5,8 +5,8 @@
 }
 
 .block {
-    width: 20px;
-    height: 34px; 
+    width: 21.5px;
+    height: 35px; 
     background-color: #282a30;
     border: solid 1px #3c3e45;
     margin: 0 1px 0 1px;
@@ -22,5 +22,4 @@
 
 .block.filled {
     background-color: var(--clr-green);
-    border: solid 1px #205438; 
 }

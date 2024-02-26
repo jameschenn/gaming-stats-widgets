@@ -1,6 +1,6 @@
 .widget-card {
     position: relative;
-    width: 390px;
+    width: 400px;
     background-color: var(--clr-card);
     border: solid 1px var(--clr-card-border);
     border-radius: 12px;
@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 29px;
+    margin-left: 25px;
 }
 
 .percentage-div p:nth-child(2) {
@@ -29,7 +29,8 @@
     color: var(--clr-green);
     font-size: 27px;
     font-weight: 700;
-    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 2px;
 }
 
 .weapon-div {
@@ -37,6 +38,6 @@
     font-size: 16px;
     font-weight: 600;
     position: absolute;
-    top: 1em;
-    right: 2.3em;
+    top: 0.7em;
+    right: 1.5em;
 }
