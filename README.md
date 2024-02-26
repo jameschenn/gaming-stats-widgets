@@ -8,6 +8,9 @@ To replicate the example given as close as possible to access skills utilizing `
 
 ![Objective](https://raw.githubusercontent.com/theblitzapp/take-home-assessment/main/assets/objective.png)
 
+## Live site
+[Live Site (hosted on Render)](https://jameschen-theblitzapp-assessment.onrender.com/)
+
 ## Starting the Project
 
 1. Clone this repository (only this branch)
@@ -18,10 +21,11 @@ git clone https://github.com/jameschenn/theblitzapp-frontend-assessment.git
 ```bash
 npm install
 ```
-3. Run project
+3. Run project.
 ```bash
 npm run dev
 ```
+The project will be accessible at http://localhost:8000/ in your web browser.
 
 ## Technologies Used
 - React
