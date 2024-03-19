@@ -1,21 +1,21 @@
-# Blitz.gg Front-End Developer Take-Home Assessment
+# Gaming Stats Widgets
 
 Take-home assessment for the Front-End Developer position at Blitz.gg.
 
 # Objective
 
-To replicate the example given as close as possible to access skills utilizing `React`, `Valtio.js`, and `CSS`.
+A set of pixel-perfect interactive widgets that determine the stats of a player, dynamically affected by a slider input. This project showcases proficiency in `React`, `Valtio.js`, and `CSS`.
 
 ![Objective](https://raw.githubusercontent.com/theblitzapp/take-home-assessment/main/assets/objective.png)
 
 ## Live site
-[Live Site (hosted on Render)](https://jameschen-theblitzapp-assessment.onrender.com/)
+[Live Site (hosted on Render)](https://jameschen-gaming-stats-widgets.onrender.com)
 
 ## Starting the Project
 
 1. Clone this repository (only this branch)
 ```bash
-git clone https://github.com/jameschenn/theblitzapp-frontend-assessment.git
+git clone https://github.com/jameschenn/gaming-stats-widgets.git
 ```
 2. Install dependencies
 ```bash
