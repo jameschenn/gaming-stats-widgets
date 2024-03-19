@@ -1,12 +1,8 @@
 # Gaming Stats Widgets
 
-Take-home assessment for the Front-End Developer position at Blitz.gg.
-
 # Objective
 
 A set of pixel-perfect interactive widgets that determine the stats of a player, dynamically affected by a slider input. This project showcases proficiency in `React`, `Valtio.js`, and `CSS`.
-
-![Objective](https://raw.githubusercontent.com/theblitzapp/take-home-assessment/main/assets/objective.png)
 
 ## Live site
 [Live Site (hosted on Render)](https://jameschen-gaming-stats-widgets.onrender.com)
